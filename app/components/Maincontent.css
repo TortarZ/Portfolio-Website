@@ -1,0 +1,21 @@
+.aboutme-pic {
+  width: 320px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 35px;
+}
+
+.aboutme-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 17px 70px;
+}
+
+.layout-text {
+  text-align: center;
+}
+
+.aboutme-text {
+}
