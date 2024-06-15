@@ -3,13 +3,13 @@ import { Poppins, Mulish } from "next/font/google";
 import "./globals.css";
 
 const poppins = Poppins({
-  weight: "400",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
   variable: "--font-poppins",
 });
 
 const mulish = Mulish({
-  weight: "400",
+  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
   variable: "--font-mulish",
 });

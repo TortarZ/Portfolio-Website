@@ -6,10 +6,8 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <nav className="navbar">
-          <h3 className="logo">Tortar.dev</h3>
-          <MenuIcon className="menu" />
-        </nav>
+        <h3 className="logo">Tortar.dev</h3>
+        <MenuIcon className="menu" />
       </header>
     </>
   );
