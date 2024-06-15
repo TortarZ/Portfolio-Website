@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Poppins, Mulish } from "next/font/google";
 import "./globals.css";
 
 const poppins = Poppins({
   weight: "400",
   subsets: ["latin"],
+  variable: "--font-poppins",
+});
+
+const mulish = Mulish({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-mulish",
 });
 
 export const metadata: Metadata = {
@@ -19,7 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={`${poppins.variable} ${mulish.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }
