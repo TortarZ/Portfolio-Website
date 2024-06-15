@@ -13,3 +13,7 @@ h4 {
   color: #767676;
   font-size: 17px;
 }
+
+li {
+  list-style-type: none;
+}
