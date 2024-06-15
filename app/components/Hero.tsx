@@ -6,6 +6,7 @@ import "./Hero.css";
 import Link from "next/link";
 
 const navsize = 30;
+const pic = 280;
 
 const Hero = () => {
   return (
@@ -13,10 +14,10 @@ const Hero = () => {
       <section className="hero">
         <Image
           src={Heropic}
-          width={280}
-          height={280}
+          width={pic}
           alt="Hero_pic"
           className="hero_pic"
+          priority
         />
         <div className="hero-page">
           <h1 className="hero_title">Front-End NextJS Developer</h1>

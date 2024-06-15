@@ -17,6 +17,7 @@ const Content = () => {
           height={aboutme_size_h}
           alt="aboutme_picture"
           className="aboutme-pic"
+          priority
         />
         <section>
           <h3 className="text-[#147efb] text-[17px] font-bold layout-text mb-[10px]">

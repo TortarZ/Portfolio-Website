@@ -15,14 +15,14 @@ const Header = () => {
     <>
       <header className="header">
         <h3 className="logo">Tortar.dev</h3>
-        <li onClick={openNavBar}>
+        <div onClick={openNavBar}>
           <MenuIcon className="menu" />
-        </li>
-        <div className={`navbar ${toggleClassCheck}`}>
+        </div>
+        <ul className={`navbar ${toggleClassCheck}`}>
           <li className="navbarlink">Home</li>
           <li className="navbarlink">Aboutme</li>
           <li className="navbarlink">Contact</li>
-        </div>
+        </ul>
       </header>
     </>
   );

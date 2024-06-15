@@ -16,20 +16,20 @@ const Contact = () => {
           </h2>
         </div>
         <div className="subcontact-box">
-          <div className="contact-detail">
+          <ul className="contact-detail">
             <li className="icon-box">
               <MapIcon className="icon" />
             </li>
-            <h3 className="icon-name">Location</h3>
-            <p className="icon-detail">Pathumthani, Thailand</p>
-          </div>
-          <div className="contact-detail">
+            <li className="icon-name">Location</li>
+            <li className="icon-detail">Pathumthani, Thailand</li>
+          </ul>
+          <ul className="contact-detail">
             <li className="icon-box">
               <MailOutlineIcon className="icon" />
             </li>
-            <h3 className="icon-name">Mail</h3>
-            <p className="icon-detail">sirikornsutthapas@gmail.com</p>
-          </div>
+            <li className="icon-name">Mail</li>
+            <li className="icon-detail">sirikornsutthapas@gmail.com</li>
+          </ul>
         </div>
       </section>
     </>
