@@ -19,3 +19,37 @@
 .menu {
   font-size: 32px;
 }
+
+.navbar {
+  position: fixed;
+  right: -100%;
+  top: 80px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 5px 8px 0.3px rgba(0, 0, 0, 0.3);
+  z-index: 998;
+}
+
+.active {
+  right: 0;
+}
+
+.navbarlink {
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  padding-left: 20px;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+:hover.navbarlink {
+  background-color: #7676763d;
+}
