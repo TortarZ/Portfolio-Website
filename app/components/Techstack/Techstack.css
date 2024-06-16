@@ -1,14 +1,16 @@
 .techstack-box {
-  width: 356px;
-  height: 144px;
-  display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.6rem;
 }
 
-.techstack-sub {
+.techstack-box,
+.techstack-sub,
+.box-sub {
   display: flex;
+}
+
+.techstack-sub,
+.techstack-box {
   gap: 1.6rem;
 }
 
@@ -17,6 +19,16 @@
 }
 
 .box-sub {
-  display: flex;
   transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 760px) {
+  .techstack-box {
+    flex-direction: row;
+  }
+
+  .techstack-box,
+  .techstack-sub {
+    gap: 1rem;
+  }
 }

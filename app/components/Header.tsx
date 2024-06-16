@@ -21,6 +21,7 @@ const Header = () => {
         <ul className={`navbar ${toggleClassCheck}`}>
           <li className="navbarlink">Home</li>
           <li className="navbarlink">Aboutme</li>
+          <li className="navbarlink">Projects</li>
           <li className="navbarlink">Contact</li>
         </ul>
       </header>

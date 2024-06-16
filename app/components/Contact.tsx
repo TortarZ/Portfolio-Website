@@ -20,15 +20,19 @@ const Contact = () => {
             <li className="icon-box">
               <MapIcon className="icon" />
             </li>
-            <li className="icon-name">Location</li>
-            <li className="icon-detail">Pathumthani, Thailand</li>
+            <ul className="text-contact">
+              <li className="icon-name">Location</li>
+              <li className="icon-detail">Pathumthani, Thailand</li>
+            </ul>
           </ul>
           <ul className="contact-detail">
             <li className="icon-box">
               <MailOutlineIcon className="icon" />
             </li>
-            <li className="icon-name">Mail</li>
-            <li className="icon-detail">sirikornsutthapas@gmail.com</li>
+            <ul className="text-contact">
+              <li className="icon-name">Mail</li>
+              <li className="icon-detail">sirikornsutthapas@gmail.com</li>
+            </ul>
           </ul>
         </div>
       </section>

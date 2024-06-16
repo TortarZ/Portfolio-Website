@@ -16,3 +16,14 @@
 .layout-text {
   text-align: center;
 }
+
+@media (min-width: 760px) {
+  .aboutme-pic {
+    width: 350px;
+    height: 350px;
+  }
+
+  .aboutme-content {
+    padding: 100px 100px 70px;
+  }
+}

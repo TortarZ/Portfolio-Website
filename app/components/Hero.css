@@ -57,3 +57,18 @@
   padding-bottom: 5px;
   margin-bottom: 20px;
 }
+
+@media (min-width: 760px) {
+  .hero {
+    padding: 40px 119px 0;
+  }
+
+  .hero_pic {
+    width: 350px;
+    height: 350px;
+  }
+
+  .hero_title {
+    font-size: 50px;
+  }
+}
