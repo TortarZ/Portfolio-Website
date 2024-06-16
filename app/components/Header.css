@@ -20,6 +20,9 @@
   font-size: 32px;
 }
 
+.navbar-pc {
+  display: none;
+}
 .navbar {
   position: fixed;
   right: -100%;
@@ -52,4 +55,43 @@
 
 :hover.navbarlink {
   background-color: #7676763d;
+}
+
+@media (min-width: 1024px) {
+  .menu,
+  .navbar {
+    display: none;
+  }
+
+  .navbar-pc {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    padding-right: 30px;
+  }
+
+  .navbar-pc li {
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .link {
+    position: relative;
+  }
+
+  .link::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    height: 2px;
+    right: 0;
+    bottom: 0;
+    transition: width 0.3s ease-out;
+  }
+
+  :hover.link::before {
+    width: 100%;
+  }
 }

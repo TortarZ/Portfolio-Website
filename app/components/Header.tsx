@@ -18,9 +18,15 @@ const Header = () => {
         <div onClick={openNavBar}>
           <MenuIcon className="menu" />
         </div>
+        <ul className="navbar-pc">
+          <li className="link">Home</li>
+          <li className="link">About</li>
+          <li className="link">Projects</li>
+          <li className="link">Contact</li>
+        </ul>
         <ul className={`navbar ${toggleClassCheck}`}>
           <li className="navbarlink">Home</li>
-          <li className="navbarlink">Aboutme</li>
+          <li className="navbarlink">About</li>
           <li className="navbarlink">Projects</li>
           <li className="navbarlink">Contact</li>
         </ul>
