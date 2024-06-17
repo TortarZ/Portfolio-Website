@@ -12,7 +12,10 @@ const Footer = () => {
           Copyright © 2024. All rights are reserved
         </h2>
         <div className="link-footer">
-          <Link href="#">
+          <Link
+            href="https://www.linkedin.com/in/sirikorn-sutthapas-685538297/"
+            target="_blank"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -26,7 +29,7 @@ const Footer = () => {
             </svg>
           </Link>
 
-          <Link href="#">
+          <Link href="https://github.com/TortarZ" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"

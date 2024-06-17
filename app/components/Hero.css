@@ -96,7 +96,7 @@
   }
 }
 
-@media (min-width: 1360px) {
+@media (min-width: 800px) {
   .hero {
     padding: 150px 300px;
     display: flex;
