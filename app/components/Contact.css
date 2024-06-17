@@ -88,3 +88,9 @@
     align-items: flex-start;
   }
 }
+
+@media (min-width: 1600px) {
+  .contact-section {
+    padding-left: 350px;
+  }
+}

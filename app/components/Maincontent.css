@@ -17,6 +17,10 @@
   text-align: center;
 }
 
+.image-side-area {
+  display: none;
+}
+
 @media (min-width: 760px) {
   .aboutme-pic {
     width: 350px;
@@ -25,5 +29,58 @@
 
   .aboutme-content {
     padding: 100px 100px 70px;
+  }
+
+  .aboutpic-area {
+    position: relative;
+  }
+
+  .image-side-area {
+    display: flex;
+    position: absolute;
+    bottom: -5px;
+    right: -35px;
+  }
+
+  .image-mini-area {
+    position: relative;
+    background-color: #fff;
+    border-radius: 100%;
+  }
+
+  .emoji {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+  }
+
+  .text-rotate {
+    animation: rotate 10s linear 0s infinite normal both;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .aboutme-content {
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    padding: 100px 400px 70px;
+  }
+
+  .about-text {
+    align-items: flex-start;
+  }
+
+  .layout-text {
+    text-align: left;
   }
 }

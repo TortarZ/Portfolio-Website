@@ -63,6 +63,11 @@
     display: none;
   }
 
+  .menu {
+    position: fixed;
+    right: -500px;
+  }
+
   .navbar-pc {
     display: flex;
     align-items: center;
