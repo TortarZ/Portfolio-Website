@@ -14,7 +14,7 @@ const emoji_size = 50;
 const Content = () => {
   return (
     <>
-      <section className="aboutme-content">
+      <section className="aboutme-content" id="About">
         <div className="aboutpic-area">
           <Image
             src={Aboutme_pic}

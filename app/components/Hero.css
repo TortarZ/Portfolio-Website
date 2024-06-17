@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 17px;
+  padding: 150px 17px 50px;
   height: 100%;
   background-color: #f9f9f9;
 }
@@ -14,9 +14,9 @@
 }
 
 .hero_pic {
-  border-radius: 100%;
   object-fit: cover;
   box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.8);
+  animation: border-wavy 8s ease-in-out 0s infinite;
 }
 
 .hero_title {
@@ -65,9 +65,21 @@
   margin: 0 100px 20px;
 }
 
+@keyframes border-wavy {
+  0% {
+    border-radius: 55% 45% 38% 62% / 55% 32% 68% 45%;
+  }
+  40% {
+    border-radius: 26% 74% 66% 34% / 30% 63% 37% 70%;
+  }
+  100% {
+    border-radius: 55% 45% 38% 62% / 55% 32% 68% 45%;
+  }
+}
+
 @media (min-width: 760px) {
   .hero {
-    padding: 50px 119px 50px;
+    padding: 150px 119px 50px;
   }
 
   .hero_pic {

@@ -6,7 +6,7 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 const Contact = () => {
   return (
     <>
-      <section className="contact-section">
+      <section className="contact-section" id="Contact">
         <div className="contact-box">
           <h3 className="text-[#147efb] font-bold text-[17px] mb-[10px]">
             CONTACT

@@ -11,7 +11,7 @@ const pic = 280;
 const Hero = () => {
   return (
     <>
-      <section className="hero">
+      <section className="hero" id="Home">
         <div>
           <div className="hero-text">
             <Image
