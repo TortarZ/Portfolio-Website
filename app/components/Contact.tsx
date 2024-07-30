@@ -12,7 +12,7 @@ const Contact = () => {
             CONTACT
           </h3>
           <h2 className="text-[#2d2e32] font-bold text-[25px]">
-            Don't be shy! Hit me up!
+            Don&#39;t be shy! Hit me up!
           </h2>
         </div>
         <div className="subcontact-box">
