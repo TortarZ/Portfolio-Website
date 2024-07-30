@@ -56,8 +56,8 @@ const Content = () => {
           </section>
           <article>
             <h4 className="layout-text mb-10">
-              Hey, my name is Sirikorn, and I'm a Frontend Developer. My passion
-              is to create and develop a clean UI/UX for my users.
+              Hey, my name is Sirikorn, and I&#39;m a Frontend Developer. My
+              passion is to create and develop a clean UI/UX for my users.
             </h4>
             <h4 className="layout-text">
               My main stack currently is Next.js in combination with Tailwind

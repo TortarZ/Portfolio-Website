@@ -24,7 +24,7 @@ const Hero = () => {
             <div className="hero-page">
               <h1 className="hero_title">Front-End NextJS Developer</h1>
               <h3 className="hero_article">
-                Hi, I'm Sirikorn Sutthapas. A passionate Front-end NextJS
+                Hi, I&#39;m Sirikorn Sutthapas. A passionate Front-end NextJS
                 Developer based in Pathumthani, Thailand.
               </h3>
 
